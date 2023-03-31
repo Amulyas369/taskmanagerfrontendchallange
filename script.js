@@ -15,7 +15,7 @@ newnote_button.addEventListener("click",(()=>{
     const note_header=document.createElement("div")
     note_header.classList.add("note-header");
     note_header.innerHTML=`
-    <input type="text" class="title" placeholder="Enter Title"/>
+    <input type="text" class="title" placeholder="Enter Title" maxlength="15"/>
     `
     note_box.appendChild(note_header);
     
